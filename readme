@@ -1,0 +1,30 @@
+
+这是一个dhcp数据包解析打印项目，类似tcpdump
+但tcpdump不会打印很全的dhcp数据包格式内容。
+
+打印结果如下
+
+  TIME: 15:45:02.084272
+    IP: 0.0.0.0.68 (0:c0:4f:82:ac:7f) > 255.255.255.255.67 (ff:ff:ff:ff:ff:ff)
+    OP: 1 (BOOTPREQUEST)
+ HTYPE: 1 (Ethernet)
+  HLEN: 6
+  HOPS: 0
+   XID: 28f61b03
+  SECS: 0
+ FLAGS: 0
+CIADDR: 0.0.0.0
+YIADDR: 0.0.0.0
+SIADDR: 0.0.0.0
+GIADDR: 0.0.0.0
+CHADDR: 00:c0:4f:82:ac:7f:00:00:00:00:00:00:00:00:00:00
+ SNAME: .
+ FNAME: .
+OPTION:  53 (  1) DHCP message type         3 (DHCPREQUEST)
+OPTION:  54 (  4) Server identifier         130.139.64.101
+OPTION:  50 (  4) Request IP address        130.139.64.143
+OPTION:  55 (  7) Parameter Request List      1 (Subnet mask)
+                                              3 (Routers)
+                                             58 (T1)
+                                             59 (T2)
+

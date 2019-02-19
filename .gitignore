@@ -1,0 +1,3 @@
+*.o
+dhcpdump
+dhcpdump.8
